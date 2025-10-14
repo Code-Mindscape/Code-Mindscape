@@ -1,108 +1,164 @@
- Profile README | Make it yours by replacing placeholders 
+Overhauled README to a clean, minimal purple theme with typing animation, animated skill bars, and a right-side anime GIF background 
 
-<div align="center">
+<div align="center" style="padding:24px 16px;background:#0E1117;color:#E5E7EB;border-radius:12px;border:1px solid #1F2430;">
 
-   Animated intro 
-  <img src="https://readme-typing-svg.demolab.com?font=Geist&weight=700&size=28&pause=1100&color=2F80ED&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+%5BYOUR_NAME%5D+%F0%9F%91%8B;Full‑Stack+Developer+%7C+Builder+%7C+Curious+Human;I+turn+ideas+into+fast%2C+delightful+apps" alt="Typing intro animation" />
+  <h1 style="margin:0 0 4px 0;line-height:1.1;">Mirza Usman</h1>
+  <p style="margin:0 0 12px 0;opacity:0.9;">Full‑Stack Developer</p>
 
-   Quick badges 
-  <p>
-    <a href="https://github.com/YOUR_GITHUB_USERNAME">
-      <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=2F80ED" alt="Profile views badge" />
-    </a>
-    <img src="https://img.shields.io/badge/Focus-Next.js%20%26%20TypeScript-2F80ED?style=for-the-badge" alt="Focus badge" />
-    <img src="https://img.shields.io/badge/Location-Your%20City-0E1117?style=for-the-badge" alt="Location badge" />
-    <a href="https://YOUR_WEBSITE_OR_LINKEDIN">
-      <img src="https://img.shields.io/badge/Portfolio-Visit-0E1117?style=for-the-badge" alt="Portfolio badge" />
-    </a>
-  </p>
+  <img
+    alt="Typing animation"
+    src="https://typingsvg.vercel.app/api/svg?font=Geist&weight=700&size=26&duration=2200&pause=900&center=true&vCenter=true&height=60&width=720&color=8B5CF6&lines=Full%E2%80%91Stack+Developer"
+  />
 
 </div>
 
----
+<img src="./public/images/anime-boy.gif" alt="Decorative anime silhouette" align="right" width="300" style="opacity:0.4; margin: 8px 0 8px 16px;">
 
-### ✨ About me
-- 🧠 I love building clean, fast, and accessible products.
-- 🚀 Currently exploring: performance-first React patterns, RSC, and edge-ready APIs.
-- 🛠️ I enjoy shipping end-to-end: design systems, data, auth, and DX.
-- 🎯 Goal this year: launch more open-source utilities and content.
+ Minimal skills with animated rectangular bars (purple) 
+<h3 style="color:#8B5CF6;margin:24px 0 8px 0;">Skills</h3>
 
----
-
-### 🧰 Tech stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,next,tailwind,node,python,go,postgres,supabase,prisma,redis,vercel,docker,git,github,linux&perline=9" alt="Tech stack icons" />
-</p>
-
-- Frontend: React, Next.js (App Router), Tailwind, shadcn/ui
-- Backend: Node.js, Server Actions, REST/GraphQL
-- Data: Postgres, Supabase, Prisma, Redis
-- Infra: Vercel, Docker, CI/CD, GitHub Actions
-
----
-
-### 📊 GitHub stats
-<div align="center">
-
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="160" src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-
+ Helper: skill row template 
+ 
+<div style="display:flex;align-items:center;gap:10px;margin:8px 0;">
+  <img src="https://skillicons.dev/icons?i=ICON" width="20" height="20" alt="NAME icon">
+  <div style="min-width:90px;width:90px;color:#E5E7EB;opacity:0.9;font-weight:600;">NAME</div>
+  <div style="flex:1;">
+    <svg width="100%" height="12" viewBox="0 0 100 8" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="100" height="8" rx="4" fill="#1F2937"/>
+      <rect x="0" y="0" width="0" height="8" rx="4" fill="#8B5CF6">
+        <animate attributeName="width" from="0" to="PCT" dur="1.2s" begin="0.2s" fill="freeze" />
+      </rect>
+    </svg>
+  </div>
+  <div style="min-width:36px;text-align:right;color:#A78BFA;font-weight:600;">PCT%</div>
 </div>
 
----
 
-### 🏆 Trophies
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub trophies" />
+<div style="display:flex;align-items:center;gap:10px;margin:8px 0;">
+  <img src="https://skillicons.dev/icons?i=nodejs" width="20" height="20" alt="Node icon">
+  <div style="min-width:90px;width:90px;color:#E5E7EB;opacity:0.9;font-weight:600;">Node</div>
+  <div style="flex:1;">
+    <svg width="100%" height="12" viewBox="0 0 100 8" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="100" height="8" rx="4" fill="#1F2937"/>
+      <rect x="0" y="0" width="0" height="8" rx="4" fill="#8B5CF6">
+        <animate attributeName="width" from="0" to="90" dur="1.2s" begin="0.1s" fill="freeze" />
+      </rect>
+    </svg>
+  </div>
+  <div style="min-width:36px;text-align:right;color:#A78BFA;font-weight:600;">90%</div>
 </div>
 
----
-
-### 🔥 Recent projects
-- 🚧 PROJECT_NAME — one-liner about what it does. [Live](https://your-live-url) · [Repo](https://github.com/YOUR_GITHUB_USERNAME/REPO)
-- ⚡ PROJECT_NAME — one-liner about what it does. [Live](https://your-live-url) · [Repo](https://github.com/YOUR_GITHUB_USERNAME/REPO)
-- 🧩 PROJECT_NAME — one-liner about what it does. [Live](https://your-live-url) · [Repo](https://github.com/YOUR_GITHUB_USERNAME/REPO)
-
-<p align="center">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=YOUR_REPO&theme=tokyonight&hide_border=true" alt="Pinned repo card" />
-  </a>
-  <a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_OTHER_REPO">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_GITHUB_USERNAME&repo=YOUR_OTHER_REPO&theme=tokyonight&hide_border=true" alt="Pinned repo card" />
-  </a>
-</p>
-
----
-
-### 🤝 Connect
-<p align="center">
-  <a href="mailto:YOUR_EMAIL">
-    <img src="https://img.shields.io/badge/Email-Contact-2F80ED?style=for-the-badge" alt="Email badge" />
-  </a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0E1117?style=for-the-badge&logo=linkedin" alt="LinkedIn badge" />
-  </a>
-  <a href="https://twitter.com/YOUR_TWITTER">
-    <img src="https://img.shields.io/badge/Twitter-Follow-0E1117?style=for-the-badge&logo=x" alt="Twitter badge" />
-  </a>
-  <a href="https://YOUR_WEBSITE">
-    <img src="https://img.shields.io/badge/Website-Visit-2F80ED?style=for-the-badge" alt="Website badge" />
-  </a>
-</p>
-
----
-
- Optional: contribution graph (requires a deployed service; works out-of-the-box for many users) 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true" alt="Activity graph" />
+<div style="display:flex;align-items:center;gap:10px;margin:8px 0;">
+  <img src="https://skillicons.dev/icons?i=php" width="20" height="20" alt="PHP icon">
+  <div style="min-width:90px;width:90px;color:#E5E7EB;opacity:0.9;font-weight:600;">PHP</div>
+  <div style="flex:1;">
+    <svg width="100%" height="12" viewBox="0 0 100 8" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="100" height="8" rx="4" fill="#1F2937"/>
+      <rect x="0" y="0" width="0" height="8" rx="4" fill="#8B5CF6">
+        <animate attributeName="width" from="0" to="70" dur="1.2s" begin="0.15s" fill="freeze" />
+      </rect>
+    </svg>
+  </div>
+  <div style="min-width:36px;text-align:right;color:#A78BFA;font-weight:600;">70%</div>
 </div>
 
- Optional: contribution snake (requires GitHub Action setup; add later if you want)
-![Snake animation](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg)
+<div style="display:flex;align-items:center;gap:10px;margin:8px 0;">
+  <img src="https://skillicons.dev/icons?i=mysql" width="20" height="20" alt="SQL icon">
+  <div style="min-width:90px;width:90px;color:#E5E7EB;opacity:0.9;font-weight:600;">SQL</div>
+  <div style="flex:1;">
+    <svg width="100%" height="12" viewBox="0 0 100 8" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="100" height="8" rx="4" fill="#1F2937"/>
+      <rect x="0" y="0" width="0" height="8" rx="4" fill="#8B5CF6">
+        <animate attributeName="width" from="0" to="75" dur="1.2s" begin="0.2s" fill="freeze" />
+      </rect>
+    </svg>
+  </div>
+  <div style="min-width:36px;text-align:right;color:#A78BFA;font-weight:600;">75%</div>
+</div>
 
+<div style="display:flex;align-items:center;gap:10px;margin:8px 0;">
+  <img src="https://skillicons.dev/icons?i=mongodb" width="20" height="20" alt="MongoDB icon">
+  <div style="min-width:90px;width:90px;color:#E5E7EB;opacity:0.9;font-weight:600;">MongoDB</div>
+  <div style="flex:1;">
+    <svg width="100%" height="12" viewBox="0 0 100 8" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="100" height="8" rx="4" fill="#1F2937"/>
+      <rect x="0" y="0" width="0" height="8" rx="4" fill="#8B5CF6">
+        <animate attributeName="width" from="0" to="80" dur="1.2s" begin="0.25s" fill="freeze" />
+      </rect>
+    </svg>
+  </div>
+  <div style="min-width:36px;text-align:right;color:#A78BFA;font-weight:600;">80%</div>
+</div>
 
- Footer 
-<p align="center">
-  Made with ❤️ · Keep building, keep learning.
-</p>
+<div style="display:flex;align-items:center;gap:10px;margin:8px 0;">
+  <img src="https://skillicons.dev/icons?i=prisma" width="20" height="20" alt="Prisma icon">
+  <div style="min-width:90px;width:90px;color:#E5E7EB;opacity:0.9;font-weight:600;">Prisma</div>
+  <div style="flex:1;">
+    <svg width="100%" height="12" viewBox="0 0 100 8" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="100" height="8" rx="4" fill="#1F2937"/>
+      <rect x="0" y="0" width="0" height="8" rx="4" fill="#8B5CF6">
+        <animate attributeName="width" from="0" to="85" dur="1.2s" begin="0.3s" fill="freeze" />
+      </rect>
+    </svg>
+  </div>
+  <div style="min-width:36px;text-align:right;color:#A78BFA;font-weight:600;">85%</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:10px;margin:8px 0;">
+  <img src="https://skillicons.dev/icons?i=ts" width="20" height="20" alt="TypeScript icon">
+  <div style="min-width:90px;width:90px;color:#E5E7EB;opacity:0.9;font-weight:600;">TypeScript</div>
+  <div style="flex:1;">
+    <svg width="100%" height="12" viewBox="0 0 100 8" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="100" height="8" rx="4" fill="#1F2937"/>
+      <rect x="0" y="0" width="0" height="8" rx="4" fill="#8B5CF6">
+        <animate attributeName="width" from="0" to="90" dur="1.2s" begin="0.35s" fill="freeze" />
+      </rect>
+    </svg>
+  </div>
+  <div style="min-width:36px;text-align:right;color:#A78BFA;font-weight:600;">90%</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:10px;margin:8px 0;">
+  <img src="https://skillicons.dev/icons?i=nextjs" width="20" height="20" alt="Next.js icon">
+  <div style="min-width:90px;width:90px;color:#E5E7EB;opacity:0.9;font-weight:600;">Next</div>
+  <div style="flex:1;">
+    <svg width="100%" height="12" viewBox="0 0 100 8" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="100" height="8" rx="4" fill="#1F2937"/>
+      <rect x="0" y="0" width="0" height="8" rx="4" fill="#8B5CF6">
+        <animate attributeName="width" from="0" to="85" dur="1.2s" begin="0.4s" fill="freeze" />
+      </rect>
+    </svg>
+  </div>
+  <div style="min-width:36px;text-align:right;color:#A78BFA;font-weight:600;">85%</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:10px;margin:8px 0;">
+  <img src="https://skillicons.dev/icons?i=postgres" width="20" height="20" alt="PostgreSQL icon">
+  <div style="min-width:90px;width:90px;color:#E5E7EB;opacity:0.9;font-weight:600;">PostgreSQL</div>
+  <div style="flex:1;">
+    <svg width="100%" height="12" viewBox="0 0 100 8" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="100" height="8" rx="4" fill="#1F2937"/>
+      <rect x="0" y="0" width="0" height="8" rx="4" fill="#8B5CF6">
+        <animate attributeName="width" from="0" to="78" dur="1.2s" begin="0.45s" fill="freeze" />
+      </rect>
+    </svg>
+  </div>
+  <div style="min-width:36px;text-align:right;color:#A78BFA;font-weight:600;">78%</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:10px;margin:8px 0;">
+  <img src="https://skillicons.dev/icons?i=react" width="20" height="20" alt="React icon">
+  <div style="min-width:90px;width:90px;color:#E5E7EB;opacity:0.9;font-weight:600;">React</div>
+  <div style="flex:1;">
+    <svg width="100%" height="12" viewBox="0 0 100 8" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="100" height="8" rx="4" fill="#1F2937"/>
+      <rect x="0" y="0" width="0" height="8" rx="4" fill="#8B5CF6">
+        <animate attributeName="width" from="0" to="88" dur="1.2s" begin="0.5s" fill="freeze" />
+      </rect>
+    </svg>
+  </div>
+  <div style="min-width:36px;text-align:right;color:#A78BFA;font-weight:600;">88%</div>
+</div>
+
+ Minimal footer spacing 
+<br clear="both" />
