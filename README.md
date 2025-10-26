@@ -1,6 +1,6 @@
 <div style="display:"flex" ">
   <span>
-    
+  
 [![Typing SVG](https://typingsvg.vercel.app/api/svg?height=37&repeat=false&backgroundOpacity=0&center=false&vCenter=false&border=false&cursorStyle=blank&deletionBehavior=stay&lines=%5B%7B%22text%22%3A%22I%27m%22%2C%22font%22%3A%22%22%2C%22color%22%3A%22%237900db%22%2C%22fontSize%22%3A30%2C%22letterSpacing%22%3A%220.01em%22%2C%22typingSpeed%22%3A0.2%2C%22deleteSpeed%22%3A0.2%2C%22fontWeight%22%3A%22600%22%7D%5D)](https://github.com/whiteSHADOW1234/TypingSVG)
 
 [![Typing SVG](https://typingsvg.vercel.app/api/svg?height=55&repeat=false&backgroundOpacity=0&center=false&vCenter=false&border=false&cursorStyle=blank&deletionBehavior=stay&lines=%5B%7B%22text%22%3A%22Mirza+Usman+Baig%22%2C%22font%22%3A%22%22%2C%22color%22%3A%22%239a1fff%22%2C%22fontSize%22%3A40%2C%22letterSpacing%22%3A%220.01em%22%2C%22typingSpeed%22%3A0.2%2C%22deleteSpeed%22%3A0.2%2C%22fontWeight%22%3A%22600%22%7D%5D)](https://github.com/whiteSHADOW1234/TypingSVG)
