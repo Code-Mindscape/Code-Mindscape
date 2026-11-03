@@ -10,10 +10,7 @@
 [![Typing SVG](https://typingsvg.vercel.app/api/svg?height=55&backgroundOpacity=0&center=false&vCenter=false&border=false&cursorStyle=underline&deletionBehavior=clear&lines=%5B%7B%22text%22%3A%22Full+stack+Developer%22%2C%22font%22%3A%22%22%2C%22color%22%3A%22%237b00e0%22%2C%22fontSize%22%3A30%2C%22letterSpacing%22%3A%220.01em%22%2C%22typingSpeed%22%3A0.2%2C%22deleteSpeed%22%3A0.2%2C%22fontWeight%22%3A%22500%22%7D%5D)](https://github.com/whiteSHADOW1234/TypingSVG)
 <br>
 
-
 <img align="right" height="150" src="https://res.cloudinary.com/codemindscape/image/upload/v1760450752/Generated_Image_October_13_2025_-_6_47PM_1_1_wypsqp.png"  />
-[![GitHub Streak](https://nirzak-streak-stats.vercel.app?user=Code-Mindscape&theme=midnight-purple&hide_border=true&border_radius=20.6&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-
 
 ###
 <div align="left">
