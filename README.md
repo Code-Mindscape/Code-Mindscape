@@ -11,8 +11,9 @@
 <br>
 
 
-[![GitHub Streak](https://nirzak-streak-stats.vercel.app?user=Code-Mindscape&theme=midnight-purple&hide_border=true&border_radius=20.6&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 <img align="right" height="150" src="https://res.cloudinary.com/codemindscape/image/upload/v1760450752/Generated_Image_October_13_2025_-_6_47PM_1_1_wypsqp.png"  />
+[![GitHub Streak](https://nirzak-streak-stats.vercel.app?user=Code-Mindscape&theme=midnight-purple&hide_border=true&border_radius=20.6&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+
 
 ###
 <div align="left">
@@ -50,10 +51,10 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="50" alt="Google Cloud logo" />
 </div>
 
-###
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mirza-usman-io) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mirzausmanmu07842@gmail.com) 
-</div>
 
 <div align="left">
   <h2>Contacts</h2>
 
+###
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mirza-usman-io) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mirzausmanmu07842@gmail.com) 
+</div>
